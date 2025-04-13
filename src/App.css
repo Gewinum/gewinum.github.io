@@ -1,0 +1,57 @@
+.hover-scale:hover {
+    scale: 1.05;
+}
+
+.hover-scale {
+    transition-duration: 0.7s;
+}
+
+.square-icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 3rem;
+    margin: auto 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 10%;
+    padding: 0.2rem;
+    color: black !important;
+}
+
+.round-icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 3rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 50%;
+    padding: 0.3rem;
+    color: black !important;
+}
+
+.square-icon:hover {
+    color: white !important;
+    background-color: black;
+}
+
+.round-icon:hover {
+    color: white !important;
+    background-color: black;
+}
+
+.sr-only {
+    display: none;
+}
+
+.csharp-icon {
+    color: #68217A;
+}
+
+.js-icon {
+    color: rgb(223, 201, 21);
+}
+
+.golang-icon {
+    color: #00ADD8;
+}

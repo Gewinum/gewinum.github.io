@@ -6,6 +6,7 @@ import Skills from "./components/Skills.tsx";
 import Footer from "./components/Footer.tsx";
 import data from "./assets/data.tsx";
 import Nothing from "./utils/Nothing.ts";
+import ContactMe from "./components/ContactMe.tsx";
 
 class App extends React.Component<Nothing, Nothing> {
   render() {
@@ -16,6 +17,7 @@ class App extends React.Component<Nothing, Nothing> {
             </header>
             <main>
                 <Skills skills={data.skills}/>
+                <ContactMe apiKey={data.contactApiKey} />
             </main>
             <footer>
                 <Footer />

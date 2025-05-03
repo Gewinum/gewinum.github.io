@@ -22,7 +22,8 @@ const data = {
             icon: <FaGolang className="golang-icon" />,
             content: "Experienced in developing efficient and high-performance applications using Go, with expertise in concurrency, microservices architecture, and building scalable backend systems"
         }
-    ]
+    ],
+    contactApiKey: "bb67ce6b-d869-4f47-9791-e01540403a58"
 };
 
 export default data;
